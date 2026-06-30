@@ -1,7 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: Vincendo;
   src: url("../font/Vincendo-Regular.ttf");
 }
+
+body {
+  background-color: #0d1117;
+  color: white;
+  font-family: Inter, sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  margin-left: 20px;
+  color: #9bb2cc;
+}
+
+.skill,
+.learn,
+.soft-skill,
+.methods {
+  flex: 1;
+}
+
+.card {
+  text-shadow: 0 0 5px black;
+  background: #161b22;
+  border: 1px solid #30363d;
+  box-shadow: none;
+  color: white;
+  transition: 0.3s;
+  animation: fade 0.8s;
+  padding: 15px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background: #21262d;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin: 40px 0;
+}
+
+.name2 {
+  font-size: 15px;
+  border-radius: 100vh;
+  padding: 20px;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 50px;
+  margin-top: 15px;
+  gap: 60px;
+}
+
+.profile {
+  width: 250px;
+  border-radius: 100vh;
+  border: 3px solid #30363d;
+}
+
+.info {
+  text-align: justify;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0 20px;
+}
+
+.box {
+  display: flex;
+  gap: 30px;
+  align-items: stretch;
+  margin: 40px 0;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills {
+  margin-top: 25px;
+  flex-wrap: wrap;
+  text-align: justify;
+  border-radius: 20px;
+}
+
+.learn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.learning-item {
+  margin-top: 25px;
+  flex-wrap: wrap;
+  text-align: justify;
+  border-radius: 20px;
+}
+
+.soft-skill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.soft {
+  margin-top: 25px;
+  flex-wrap: wrap;
+  text-align: justify;
+  border-radius: 20px;
+}
+
+.methods {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.method-info {
+  font-size: 20px;
+  border-radius: 100vh;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#161b22;
+  margin-top: 67px;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @media (max-width: 768px) {
   .avatar {
     flex-direction: column;
@@ -9,8 +176,16 @@
     margin: 0;
   }
 
+  .name {
+    flex-direction: column;
+  }
+
   .profile {
     width: 180px;
+  }
+
+  .box {
+    flex-direction: column;
   }
 
   .skills {
@@ -20,84 +195,4 @@
   .methods {
     justify-content: center;
   }
-}
-a {
-  color: white;
-  text-decoration: none;
-}
-
-body{
-  padding: 20px;
-  margin: 0;
-  box-sizing: border-box;
-  background-color: #141414;
-  color: white;
-  font-family: Vincendo;
-}
-.card {
-  text-shadow: 0 0 5px black;
-  box-shadow: 0 0 10px #808080;
-  border: 1px solid #353535;
-  background-color: #303030;
-  color: white;
-}
-
-.name {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 25px;
-}
-.name2 {
-  font-size: 20px;
-
-  border-radius: 100vh;
-  padding: 5px 10px;
-}
-
-.avatar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 15px;
-  gap: 60px;
-  margin: 0 50px;
-}
-.profile {
-  width: 250px;
-  box-shadow: 0 0 50px #808080;
-  border-radius: 100vh;
-}
-.info {
-  text-align: justify;
-
-  border-radius: 20px;
-  padding: 5px 10px;
-}
-.skill {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.skills {
-  margin-top: 25px;
-  flex-wrap: wrap;
-  text-align: justify;
-  border-radius: 20px;
-  padding: 5px 10px;
-}
-.methods {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-.method-info {
-  font-size: 20px;
-
-  border-radius: 100vh;
-  padding: 5px 10px;
 }

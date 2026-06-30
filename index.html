@@ -2,24 +2,32 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+
+    <title>Mahdi Beshkani | Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
     <main>
       <section class="name">
         <h1 class="card name2">Mahdi Beshkani</h1>
+
+        <h2 class="card name2">
+          Computer Science Student | Front-End Enthusiast
+        </h2>
       </section>
-      <section class="name">
-        <h2 class="card name2">Computer Science Student</h2>
-        <h2 class="card name2">Aspiring Front-End Developer</h2>
-      </section>
-      <h2>My Profile</h2>
+
+      <section class="name"></section>
+
+      <h2 id="profileTitle">My Profile</h2>
+
       <section class="avatar">
         <img class="profile" src="img/avatar.jpg" alt="Profile" />
+
         <section class="card info">
-          <p>
+          <p id="profileText">
             I am an 11th grade computer science student with an interest in web
             design. I am learning and practicing HTML and CSS. I am looking for
             an internship or work experience opportunity to gain practical
@@ -27,39 +35,69 @@
           </p>
         </section>
       </section>
-      <br />
-      <hr />
-      <br />
-      <h2>My Skills</h2>
-      <section class="skill">
-        <p class="card skills">HTML ⭐⭐⭐⭐☆</p>
-        <p class="card skills">CSS ⭐⭐⭐☆☆</p>
-        <p class="card skills">Git ⭐⭐⭐☆☆</p>
-        <p class="card skills">GitHub ⭐⭐⭐☆☆</p>
-        <p class="card skills">ICDL ⭐⭐⭐⭐☆</p>
-      </section>
-      <br />
-      <br />
-      <hr />
-      <br />
-      <h2>Contact Me</h2>
-      <section class="methods">
-        <a class="card method-info" href="mailto:beshkani.work@gmail.com"
-          >beshkani.work@gmail.com</a
-        >
 
-        <a class="card method-info" href="tel:09046155827"
-          >09940803214</a
-        >
-        <a
-          class="card method-info"
-          href="https://github.com/Mahdi-Beshkani"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub Profile</a
-        >
+      <section class="box">
+        <section class="skill">
+          <h2 id="skillsTitle">My Skills</h2>
+
+          <p class="card skills">💻 HTML5</p>
+          <p class="card skills">🎨 CSS3</p>
+          <p class="card skills">🐙 GitHub</p>
+          <p class="card skills">📁 Windows</p>
+          <p class="card skills">📄 ICDL</p>
+          <p class="card skills">🌐 Responsive Design</p>
+        </section>
+
+        <section class="learn">
+          <h2>Learning</h2>
+          <p class="card learning-item">📚 JavaScript</p>
+          <p class="card learning-item">📚 Bootstrap</p>
+          <p class="card learning-item">📚 UI Design</p>
+          <p class="card learning-item">📚 Git Workflow</p>
+        </section>
       </section>
+      <br>
+      <section class="box">
+        <section class="soft-skill">
+          <h2>Soft Skills</h2>
+          <p class="card soft">✔ Teamwork</p>
+          <p class="card soft">✔ Fast Learner</p>
+          <p class="card soft">✔ Problem Solving</p>
+          <p class="card soft">✔ Responsibility</p>
+          <p class="card soft">✔ Self Learning</p>
+        </section>
+
+        <br />
+
+        <section class="methods">
+          <h2 id="contactTitle">Contact Me</h2>
+          <a
+            class="card method-info"
+            href="mailto:beshkani.work@gmail.com"
+          >
+            📧 Email
+          </a>
+
+          <a class="card method-info" href="tel:09046155827">
+            📱 Phone
+          </a>
+
+          <a
+            class="card method-info"
+            href="https://github.com/Mahdi-Beshkani"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🐙 GitHub
+          </a>
+        </section>
+      </section>
+
+      <footer class="card footer">
+        © 2026 Mahdi Beshkani
+      </footer>
     </main>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
