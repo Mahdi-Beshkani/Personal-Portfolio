@@ -17,7 +17,7 @@ A simple and responsive personal portfolio website built with HTML and CSS.
 
 ## 📬 Contact
 
-- Email: beshkani.personal@gmail.com
+- Email: beshkani.work@gmail.com
 - GitHub: https://github.com/Mahdi-Beshkani
 
 ## Preview
