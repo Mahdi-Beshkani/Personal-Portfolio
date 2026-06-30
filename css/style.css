@@ -1,0 +1,103 @@
+@font-face {
+  font-family: Vincendo;
+  src: url("../font/Vincendo-Regular.ttf");
+}
+@media (max-width: 768px) {
+  .avatar {
+    flex-direction: column;
+    gap: 20px;
+    margin: 0;
+  }
+
+  .profile {
+    width: 180px;
+  }
+
+  .skills {
+    gap: 20px;
+  }
+
+  .methods {
+    justify-content: center;
+  }
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+body{
+  padding: 20px;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #141414;
+  color: white;
+  font-family: Vincendo;
+}
+.card {
+  text-shadow: 0 0 5px black;
+  box-shadow: 0 0 10px #808080;
+  border: 1px solid #353535;
+  background-color: #303030;
+  color: white;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.name2 {
+  font-size: 20px;
+
+  border-radius: 100vh;
+  padding: 5px 10px;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 60px;
+  margin: 0 50px;
+}
+.profile {
+  width: 250px;
+  box-shadow: 0 0 50px #808080;
+  border-radius: 100vh;
+}
+.info {
+  text-align: justify;
+
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.skills {
+  margin-top: 25px;
+  flex-wrap: wrap;
+  text-align: justify;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+.methods {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.method-info {
+  font-size: 20px;
+
+  border-radius: 100vh;
+  padding: 5px 10px;
+}
