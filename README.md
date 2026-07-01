@@ -1,16 +1,35 @@
 # 👋 Hi, I'm Mahdi Beshkani
 
 I'm an 11th-grade Computer Science student from Mashhad, Iran.  
-I'm passionate about Front-End Development and currently learning HTML, CSS, Git, and GitHub.
+I'm passionate about Front-End Development and currently learning modern web technologies.
 
-This repository contains my personal portfolio website, created to introduce myself, showcase my skills, and document my learning journey.
+This repository contains my personal portfolio website, built to introduce myself, showcase my skills, and document my learning journey.
+
+---
+
+## 🌐 Live Demo
+
+👉 **[View the Portfolio](https://mahdi-beshkani.github.io/Personal-Portfolio/)**
+
+---
+
+## ✨ Features
+
+- 🌍 Bilingual Portfolio (English / فارسی)
+- 🔄 Easy Language Switching
+- 📱 Fully Responsive Design
+- 🎨 Clean & Modern UI
+- 👤 Personal Introduction
+- 💻 Skills & Learning Roadmap
+- 🤝 Soft Skills Section
+- 📬 Contact Information
 
 ---
 
 ## 🚀 About Me
 
 - 🎓 11th Grade Computer Science Student
-- 💻 Interested in Front-End Development
+- 💻 Passionate about Front-End Development
 - 📚 Currently learning JavaScript
 - 🌱 Always improving through practice and personal projects
 - 🤝 Looking for internship and work experience opportunities
@@ -33,51 +52,63 @@ This repository contains my personal portfolio website, created to introduce mys
 
 - JavaScript
 - Bootstrap
-- Git Workflow
 - UI Design
+- Git Workflow
 
 ---
 
-## 📂 Project
+## 📂 Project Structure
 
-This portfolio includes:
-
-- Personal introduction
-- Skills section
-- Learning roadmap
-- Soft skills
-- Contact information
-- Responsive layout
-
----
-
-## 📸 Preview FA
-
-![Portfolio Preview](img/Screenshot-FA)
+```text
+Personal-Portfolio/
+│
+├── css/
+├── font/
+├── img/
+├── js/
+├── index.html
+├── fa.html
+└── README.md
+```
 
 ---
-## 📸 Preview EN
 
-![Portfolio Preview](img/Screenshot-EN)
+## 📸 Preview
+
+### 🇬🇧 English Version
+
+![English Portfolio](img/Screenshot-EN.png)
+
+### 🇮🇷 Persian Version
+
+![Persian Portfolio](img/Screenshot-FA.png)
 
 ---
 
 ## 📬 Contact
 
-📧 Email: **beshkani.work@gmail.com**
+📧 **Email**  
+beshkani.work@gmail.com
 
-🐙 GitHub:  
+🐙 **GitHub**  
 https://github.com/Mahdi-Beshkani
 
 ---
 
 ## ⭐ Future Goals
 
-- Learn JavaScript
+- Learn JavaScript deeply
 - Learn React
 - Build real-world projects
+- Improve UI/UX skills
 - Become a Front-End Developer
 
 ---
 
-Made with ❤️ by Mahdi Beshkani
+## 📄 License
+
+This project is open-source and available for learning and educational purposes.
+
+---
+
+Made with ❤️ by **Mahdi Beshkani**
