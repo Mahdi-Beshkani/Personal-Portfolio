@@ -51,9 +51,14 @@ This portfolio includes:
 
 ---
 
-## 📸 Preview
+## 📸 Preview FA
 
-![Portfolio Preview](img/screenshot.png)
+![Portfolio Preview](img/Screenshot-FA)
+
+---
+## 📸 Preview EN
+
+![Portfolio Preview](img/Screenshot-EN)
 
 ---
 
